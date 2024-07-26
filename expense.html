@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expense Tracker</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            background-color: #f8f9fa;
+        }
+        .container {
+            margin-top: 50px;
+        }
+        .card {
+            padding: 20px;
+        }
+        table {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="card mx-auto">
+            <h2 class="card-title">Expense Tracker</h2>
+            <p>Total Expense: <!-- Insert total expense here --></p>
+            <p>Emergency Expense: <!-- Insert emergency expense here --></p>
+            <table class="table table-bordered">
+                <thead>
+                    <tr>
+                        <th>Date</th>
+                        <th>Amount</th>
+                        <th>Description</th>
+                        <th>Emergency</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Example row -->
+                    <tr>
+                        <td>2024-07-26</td>
+                        <td>100.00</td>
+                        <td>Books</td>
+                        <td>No</td>
+                    </tr>
+                </tbody>
+            </table>
+            <a href="add_expense.html" class="btn btn-primary btn-block">Add Expense</a>
+        </div>
+    </div>
+</body>
+</html>
